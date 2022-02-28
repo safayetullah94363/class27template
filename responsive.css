@@ -1,4 +1,4 @@
-@media (max-width:1300px) {
+@media (max-width:1330px) {
     .fixed-width {
         width: 100%;
         max-width: 100%;
@@ -7,270 +7,704 @@
         padding-right: 20px;
         box-sizing: border-box;
     }
-}
-
-@media (max-width:1080px) {
-    .header-left {
-        width: 100%;
-        text-align: center;
-    }
-    .header-right {
-        width: 100%;
-        text-align: center;
-    }
-    .header-right ul {
-        text-align: center;
-    }
-    .header-right ul li a {
-        padding: 20px 13px;
-        font-size: 18px;
-        border-right: none;
-    }
-    .header-right ul li:first-child a {
-        border-left: none;
+    .service-item p {
+        font-size: 17px;
+        padding: 0 9px;
     }
     .service-item h3 {
-        font-size: 24px;
-    }
-    .right-text h3 {
-        font-size: 20px;
+        font-size: 22px;
+        padding: 15px 0;
     }
     .right-text p {
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width:1252px) {
+    .menu ul li a {
+        padding: 0 11px;
         font-size: 16px;
-        line-height: 23px;
     }
-    .blog-right ul li {
-        font-size: 18px;
-    }
-    .blog-right h2 {
+    .logo a h1 {
         font-size: 30px;
     }
-}
-@media (max-width:992px) {
-    .bannar-caption {
-        padding: 155px 0;
+    .banner-section {
+        padding: 130px 0;
     }
-    .blog-right h2 {
+    .content h1 {
+        font-size: 60px;
+        padding-bottom: 15px;
+    }
+    .content h5 {
         font-size: 23px;
+        padding-bottom: 44px;
     }
-    .blog-right ul li {
+    .content a {
+        padding: 11px 20px;
+        font-size: 18px;
+    }
+    .top-sec h2 {
+        font-size: 37px;
+    }
+    .top-sec p {
+        font-size: 18px;
+    }
+    .bottom-sec {
+        margin: 0 100px;
+    }
+    .service-item {
+        margin: 0 15px;
+    }
+    .service-item i {
+        font-size: 35px;
+        padding-bottom: 3px;
+    }
+    .service-item h3 {
         font-size: 16px;
+        padding: 15px 0;
     }
-    .blog-right ul {
-        padding: 10px;
+    .service-item p {
+	font-size: 16px;
+	padding: 0 9px;
     }
-    .blog-right {
-        width: 29%;
+    .top-sec h2 {
+        font-size: 22px;
     }
-    .blog-right ul li {
-        font-size: 14px;
-        margin-bottom: 21px;
+    
+    .contact-item i {
+        font-size: 23px;
+        padding: 13px 0;
     }
- 
-}
-@media (max-width:805px) {
-    .right-text p {
-        font-size: 15px;
+    .contact-item p {
+        font-size: 18px;
+        padding: 2px 0;
+    }
+    .image {
+        width: 46%;
+    }
+    .image img {
+        width: 530px;
+    }
+    .right-text {
+        width: 50%;
+        margin-top: 15px;
     }
     .right-text h3 {
-        font-size: 17px;
+        padding: 0px;
     }
 }
 
-@media (max-width:776px) {
-    .header-right ul li a {
-        padding: 20px 13px;
-        font-size: 18px;
-        border-right: none;
-    }
-    .header-right ul li:first-child a {
-        border-left: none;
-    }
-    .bannar-caption {
-        padding: 93px 0;
-    }
-    .bannar-caption h1 {
-        padding: 4px 14px;
-    }
-    .bannar-caption h2 {
-        padding: 8px 7px;
-        border-radius: 5px;
-        margin-top: 21px;
-    }
-    .service-item {
-        width: 100%;
-        padding: 25px 10px;
-    }
-    .blog-left {
-        width: 100%;
-    }
-    .blog-right {
-        width: 100%;
-    }
-    .footer-left {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 15px;
-    }
-    .footer-right {
-        width: 100%;
-    }
-    .footer-right ul {
-        text-align: center;
-    }
-    .service {
-        padding: 50px 0;
-    }
-    .service-item h3 {
-        font-size: 24px;
-    }
-    .about-item h2 {
-        font-size: 27px;
-    }
-    .about-item p {
-        font-size: 17px;
-        line-height: 31px;
+@media (max-width:1174px) {
+    .right-text {
+        margin-top: 15px;
     }
     .right-text h3 {
-        font-size: 22px;
+        font-size: 18px;
     }
     .right-text p {
-        font-size: 17px;
-        line-height: 23px;
+        font-size: 14px;
     }
-    .hero {
-        margin-top: 0px;
-        margin-left: 10px;
+    .image img {
+        width: 510px;
+        height: 361px;
     }
+    
+   
+}
+/* @media (max-width:1174px) {
     .image {
-        width: 24%;
+        width: 100%;
+        text-align: center;
+    }
+    .image img {
+        width: 600px;
     }
     .right-text {
-        width: 74%;
+        width: 77%;
+    }
+    .right-text p {
+        padding-right: 50px;
+    }
+    .right-text p {
+        font-size: 14px;
+    }
+} */
+
+@media (max-width:1100px) {
+    .image img {
+        width: 484px;
     }
     .right-text h3 {
-        font-size: 24px;
+        font-size: 16px;
     }
-    .blog-right ul li {
-        font-size: 19px;
+    .right-text p {
+        font-size: 13px;
+    }
+
+}
+@media (max-width:1050px) {
+    .image img {
+        width: 465px;
+        height: 344px;
+    }
+    .right-text h3 {
+        font-size: 16px;
+    }
+    .right-text p {
+        margin-top: -8px;
+    }
+}
+@media (max-width:1000px) {
+    .image img {
+        width: 443px;
+        height: 361px;
+    }
+    .menu {
+        width: 66%;
+    }
+    .logo {
+        width: 30%;
+    }
+}
+
+@media (max-width:972px) {
+    .menu ul li a {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .logo a h1 {
+        font-size: 28px;
+    }
+    .menu {
+        width: 68%;
+    }
+    .logo {
+        width: 30%;
+    }
+    .banner-section {
+        padding: 100px 0;
+    }
+    .content h1 {
+        font-size: 47px;
+        padding-bottom: 13px;
+    }
+    .content h5 {
+        font-size: 20px;
+        padding-bottom: 34px;
+    }
+    .content a {
+        padding: 9px 18px;
+        font-size: 18px;
+    }
+    .top-sec h2 {
+        font-size: 25px;
+    }
+    .top-sec p {
+        font-size: 13px;
+    }
+    .bottom-sec {
+        margin: 0 60px;
+    }
+    .service-item i {
+        font-size: 33px;
+        padding-bottom: 3px;
+    }
+    .service-item h3 {
+        font-size: 23px;
+        padding: 15px 0;
+    }
+    .service-item p {
+        font-size: 16px;
+        padding: 0 3px;
+    }
+    .top-sec p {
+        font-size: 12px;
+    }
+    .contact-item p {
+        font-size: 17px;
+    }
+    .menu ul li a {
+        line-height: 25px;
+    }
+    .image img {
+        width: 422px;
+    }
+    .service-item {
+        width: 43%;
+    }
+    .service-item {
+        margin: 14px 15px;
     }
    
-    
+}
+@media (max-width:900px) {
+    .image img {
+        width: 397px;
+        height: 383px;
+    }
+}
+@media (max-width:868px){
+    .image {
+        width: 100%;
+    }
+    .image img {
+        width: 693px;
+        padding-left: 35px;
+    }
+    .right-text {
+        width: 96%;
+        padding-right: 100px;
+    }
+
+}
+@media (max-width:768px) {
+    .logo a h1 {
+        font-size: 21px;
+    }
+    .menu ul li a {
+        padding: 0 9px;
+        font-size: 12px;
+    }
+    .menu {
+        width: 69%;
+    }
+    .logo {
+        width: 29%;
+    }
+    .banner-section {
+        padding: 90px 0;
+    }
+    .content h1 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .content h5 {
+        font-size: 19px;
+        padding-bottom: 30px;
+    }
+    .content a {
+        padding: 8px 16px;
+        font-size: 17px;
+    }
+    .top-sec h2 {
+        font-size: 25px;
+        padding-bottom: 17px;
+    }
+    .top-sec p {
+        font-size: 13px;
+    }
+    .service-item {
+        margin: 25px 20px;
+    }
+    .service-item i {
+        font-size: 30px;
+        padding-bottom: 3px;
+    }
+    .service-item h3 {
+        font-size: 19px;
+        padding: 15px 0;
+    }
+    .service-item p {
+        font-size: 15px;
+    }
+    .service-item {
+        margin: 25px 20px;
+        width: 40%;
+    }
+    .contact-item p {
+        font-size: 15px;
+    }
+    .contact-item i {
+        padding: 11px 0;
+    }
+    .menu ul li a {
+        padding: 0 8px;
+        font-size: 10px;
+        line-height: 25px;
+    }
+    .header {
+        padding: 14px 0;
+    }
+    .image img {
+        width: 653px;
+    }
+    .right-text {
+        width: 95%;
+        padding-right: 16px;
+    }
+    .menu ul li a {
+        font-size: 14px;
+    }
+   
+}
+
+@media (max-width:690px) {
+    .image img {
+        width: 602px;
+    }
+    .right-text {
+        width: 95%;
+        padding-right: 41px;
+    }
+    .menu {
+        width: 71%;
+    }
+    .menu ul li a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:640px) {
+    .image img {
+        width: 569px;
+    }
+    .right-text {
+        width: 94%;
+        padding-right: 7px;
+    }
+    .menu ul li a {
+        padding: 0 4px;
+    }
 }
 @media (max-width:620px) {
-    .right-text p {
-        font-size: 15px;
-        line-height: 22px;
+    .menu ul li a {
+        padding: 0 8px;
+        font-size: 11px;
+    }
+    .logo a h1 {
+        font-size: 19px;
+    }
+    .banner-section {
+        padding: 80px 0;
+    }
+    .content h1 {
+        font-size: 34px;
+        padding-bottom: 7px;
+    }
+    .content h5 {
+        font-size: 17px;
+        padding-bottom: 22px;
+    }
+    .content a {
+        padding: 7px 15px;
+        font-size: 16px;
+    }
+    .top-sec h2 {
+        font-size: 25px;
+        padding-bottom: 11px;
+    }
+    .top-sec p {
+        font-size: 12px;
+    }
+    .service-item h3 {
+        font-size: 18px;
+        padding: 14px 0;
+    }
+    .service-item p {
+        font-size: 14px;
+    }
+    .contact-item p {
+        font-size: 13px;
+    }
+    .menu ul li a {
+        padding: 0 4px;
+        font-size: 13px;
+    }
+    .image {
+        width: 90%;
+    }
+    .image img {
+        width: 545px;
+    }
+    .right-text {
+        padding-right: 20px;
+    }
+    .right-text {
+        margin-top: 28px;
     }
     .right-text h3 {
-        font-size: 20px;
+        margin-bottom: 21px;
     }
+  
 }
 
 @media (max-width:576px) {
-    .bannar-caption h2 {
-        padding: 8px 5px;
-        font-size: 18px;
-        max-width: 254px;
+    .menu ul {
+        display: none;
     }
-    .bannar-caption h1 {
-        padding: 4px 14px;
-        font-size: 18px;
+    .menu {
+        text-align: right;
     }
-    .bannar-caption {
-        padding: 76px 0;
+   
+    .responsive-ul {
+        display: block !important;
+        padding-left: 0;
     }
-    .blog {
-        margin: 0px;
+    .responsive-ul li a {
+        color: #22c3a3!important;
+        font-size: 16px !important;
+        padding-bottom: 10px !important;
     }
-    .right-text {
-        width: 88%;
-        padding: 10px 30px;
+    .responsive-menu {
+        display: block;
     }
-    .image {
+    .responsive-ul li {
+        display: block !important;
+        text-align: left;
+    }
+    .button1 {
+        color: #22c3a3;
+        background: #fff;
+        border-color: #22c3a3;
+    }
+    .btn-check:focus + .btn, .btn:focus {
+        outline: 0;
+        box-shadow: 0 0 0 .25rem #fff !important;
+    }
+    .logo {
+        width: 52%;
+    }
+    .logo a h1 {
+        font-size: 19px;
+        margin-top: 5px;
+    }
+    .menu {
+        width: 20%;
+    }
+    .header {
+        padding: 9px 0;
+    }
+    .banner-section {
+        padding: 63px 0;
+    }
+    .content h1 {
+        font-size: 25px;
+        padding-bottom: 4px;
+    }
+    .content h5 {
+        font-size: 15px;
+        padding-bottom: 14px;
+    }
+    .content a {
+        padding: 6px 13px;
+        font-size: 15px;
+    }
+    .service-item {
         width: 100%;
-        padding-left: 30px;
+    }
+    .section-bottom {
+        margin: 0;
+    }
+    .footer-bottom {
+        padding: 24px 0;
     }
     .image img {
-        width: 342px;
-        height: 342px;
+        width: 500px;
     }
-    .blog-right {
-        width: 93%;
+    .right-text {
+        padding-right: 34px;
+    }
+    .offcanvas-end {
+        width: 300px;
+    }
+    .top-sec {
+        padding-bottom: 0px;
+    }
+    .footer {
+        padding: 15px 0;
+    }
+    .footer-bottom {
+        padding: 15px 0;
     }
 
 }
-@media (max-width:460px) {
-    .header-right ul li a {
-        padding: 20px 9px;
+@media (max-width:535px){
+    .right-text {
+        padding-right: 19px;
+        width: 93%;
+    }
+    .image img {
+        width: 467px;
     }
     .image {
         width: 100%;
-        padding-left: 0;
+    }
+}
+@media (max-width:500px) {
+    .image img {
+        width: 434px;
+    }
+}
+@media (max-width:468px) {
+    .image img {
+        width: 400px;
+        padding-left: 2px;
     }
     .right-text {
         width: 100%;
-        padding: 10px 0;
     }
-    .blog-right ul li {
-        font-size: 17px;
+    .offcanvas-end {
+        width: 240px;
     }
-    .blog-right {
-        width: 100%;
+    .image img {
+        height: 270px;
     }
-    .blog-right h2 {
-        font-size: 21px;
+   
+}
+@media (max-width:440px) {
+    .right-text {
+        padding-right: 16px;
+    }
+    .image img {
+        width: 370px;
+    }
+    .footer-bottom p {
+        font-size: 12px;
     }
 }
-@media (max-width:420px) {
-    .header-right ul li a {
-        font-size: 15px;
+
+@media (max-width:420px){
+    .banner-section {
+        padding: 50px 0;
     }
-    .bannar-caption {
-        padding: 60px 0;
+    .content h1 {
+        font-size: 20px;
+        padding-bottom: 2px;
+    }
+    .content h5 {
+        font-size: 11px;
+        padding-bottom: 10px;
+    }
+    .content a {
+        padding: 5px 11px;
+        font-size: 13px;
+    }
+    .service {
+        padding: 47px 0;
+    }
+    .top-sec {
+        padding-bottom: 0px;
+    }
+    .top-sec h2 {
+        font-size: 19px;
+        padding-bottom: 8px;
+    }
+    .top-sec p {
+        font-size: 12px;
+    }
+    .bottom-sec {
+        margin: 0 21px;
+        padding: 44px 0;
+    }
+    .service-item {
+        margin: 20px 8px;
     }
     .service-item h3 {
         font-size: 20px;
+        padding: 14px 0;
     }
-    .about-item p {
-        font-size: 16px;
-        line-height: 29px;
+    .service-item p {
+        font-size: 15px;
     }
-    .header-right ul li a {
+    .contact-item {
+        width: 100%;
+        padding-top: 15px;
+    }
+    .social li a {
+        padding: 0 9px;
+        font-size: 17px;
+    }
+    .social {
+        padding-left: 0;
+    }
+    .footer {
+        padding: 15px 0;
+    }
+    .footer-bottom {
+        padding: 18px 0;
+    }
+    .footer-bottom p {
         font-size: 14px;
-        padding: 20px 7px;
     }
-    .header-right ul li a {
-        font-size: 13px;
-        padding: 20px 5px;
+    .right-text {
+        padding-right: 21px;
+    }
+    .image img {
+        height: 290px;
+        width: 340px;
+    }
+}
+@media (max-width:380px) {
+    .right-text {
+        padding-right: 23px;
+    }
+    .image img {
+        height: 200px;
+        width: 300px;
+    }
+    .offcanvas-end {
+        width: 200px;
+    }
+}
+@media (max-width:340px) {
+    .right-text {
+        padding-right: 14px;
+    }
+    .image img {
+        height: 220px;
+        width: 280px;
+    }
+    .contact {
+        padding: 50px 0;
+    }
+    .footer-bottom p {
+        font-size: 12px;
+    }
+}
+@media (max-width:320px) {
+    .image img {
+        height: 210px;
+        width: 254px;
+    }
+    .content a {
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+    .content h1 {
+        font-size: 19px;
     }
 }
 @media (max-width:300px) {
-    .right-text h3 {
-        font-size: 13px;
-        font-weight: bold;
-    }
-    .right-text p {
-        font-size: 13px;
+    .right-text {
+        padding-right: 22px;
     }
     .image img {
-        height: 212px;
+        height: 215px;
+        width: 240px;
     }
-    .header-right ul li a {
-        font-size: 12px;
-        padding: 20px 5px;
+    .banner-section {
+        padding: 42px 0;
     }
-    .bannar-caption h1 {
-        font-size: 16px;
+    .content h1 {
+        font-size: 18px;
     }
-    .bannar-caption h2 {
-        font-size: 13px;
+    .content h5 {
+        font-size: 10px;
+        padding-bottom: 5px;
     }
-    .about-item p {
-        font-size: 13px;
-        line-height: 27px;
+    .content a {
+        padding: 3px 8px;
+        font-size: 10px;
     }
-    .image img {
-        height: 273px;
+    .footer-bottom p {
+        font-size: 11px;
+    }
+    .offcanvas-end {
+        width: 186px;
+    }
+    .logo a h1 {
+        font-size: 18px;
     }
 }
